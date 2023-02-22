@@ -1,13 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
+/* delete the following line if no text is used*/
+/* edit the line if you wanna use other fonts*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame*/
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner.png);
-    background-position: center;
-    background-size: cover;
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div p{
+    margin-block: block;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.days{
     position: relative;
+    font-weight: 700;
+    transform: translate(0%,-35%);
+}
+
+.small{
+    position: relative;
+    font-weight: 700;
+}
+
+.number{
+    position: relative;
+    font-weight: 700;
+    transform: translate(0%, );
+    
 }
