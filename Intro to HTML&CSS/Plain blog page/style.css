@@ -1,0 +1,23 @@
+body{
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: red;
+    font-size:50px;
+}
+
+h2{
+    color:yellow;
+    font-size: 35px;
+}
+
+p{
+    font-size: 19px;;
+}
+
+li{
+    font-size: 17px;
+}
